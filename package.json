@@ -1,0 +1,30 @@
+{
+  "name": "@cahmoraes93/gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx vitest",
+    "test:cov": "npx vitest --coverage",
+    "dev": "tsx watch src/main.ts",
+    "server": "npx json-server ./src/db/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.11.7",
+    "@vitest/coverage-v8": "^1.2.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-vitest-globals": "^1.4.0",
+    "json-server": "^1.0.0-alpha.23",
+    "prettier": "^3.2.4",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vite-tsconfig-paths": "^4.3.1",
+    "vitest": "^1.2.2"
+  }
+}
